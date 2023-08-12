@@ -11,13 +11,13 @@
   },
   {
     "id": 2,
-    "title": "Succulent Turkeys",
-    "slug": "succulent-turkey",
-    "description": "Elevate your special occasions with our succulent turkeys, known for their tender meat and exceptional flavor profile that will impress even the most discerning palate.",
-    "images": ["/images/turkey_1.jpg", "/images/turkey_2.jpg"],
-    "price": "$29.99",
-    "keywords": ["turkey", "special occasions", "exceptional flavor"],
-    "image": "/images/turkey.png"
+    "title": "Mung Seeds",
+    "slug": "mung-seeds",
+    "description": "Discover the potential of mung seeds, packed with nutrients and a versatile addition to your culinary creations, from sprouts to delicious dishes.",
+    "images": ["/images/mung_seeds_1.jpg", "/images/mung_seeds_2.jpg"],
+    "price": "$2.49",
+    "keywords": ["mung seeds", "nutrient-packed", "culinary versatility"],
+    "image": "/images/mungseed.png"
   },
   {
     "id": 3,

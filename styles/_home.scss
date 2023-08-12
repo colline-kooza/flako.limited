@@ -157,11 +157,11 @@
         .home-header {
           width: 60%;
           h1 {
-            font-size: 65px;
+            font-size: 60px;
             color: white;
             text-align: center;
             font-weight: bolder;
-            line-height: 90px;
+            line-height: 65px;
             font-family: "Ribeye Marrow", cursive;
           }
         }
@@ -196,7 +196,7 @@
         }
         @media (max-width: 468.98px) {
           display: flex;
-          gap: 2rem;
+          gap: 1.6rem;
           flex-direction: column;
           align-items: center;
           justify-content: center;
@@ -204,11 +204,11 @@
           .home-header {
             width: 60%;
             h1 {
-              font-size: 50px;
+              font-size: 55px;
               color: white;
               text-align: center;
               font-weight: bolder;
-              line-height: 65px;
+              line-height: 60px;
               font-family: "Ribeye Marrow", cursive;
             }
           }
@@ -238,6 +238,54 @@
                 color: white;
                 border: 1px solid $yellow;
                 background: none;
+              }
+            }
+          }
+          @media (max-width: 381.98px) {
+            display: flex;
+            gap: 1.6rem;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 75vh;
+            .home-header {
+              width: 60%;
+              h1 {
+                font-size: 58px;
+                color: white;
+                text-align: center;
+                font-weight: bolder;
+                line-height: 60px;
+                font-family: "Ribeye Marrow", cursive;
+              }
+            }
+            .home-paragraph {
+              width: 90%;
+              p {
+                text-align: center;
+                line-height: 29px;
+                font-size: 15px;
+                color: white;
+              }
+            }
+            .home-button {
+              a {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                text-decoration: none;
+                color: black;
+                background-color: #e0b10b;
+                padding: 14px 30px;
+                border-radius: 5px;
+                font-weight: 500;
+                font-size: 12px;
+                transition: all 1s;
+                &:hover {
+                  color: white;
+                  border: 1px solid $yellow;
+                  background: none;
+                }
               }
             }
           }
