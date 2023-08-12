@@ -991,12 +991,12 @@
               display: grid;
               grid-template-columns: repeat(auto-fit, minmax((15rem, 1fr)));
               gap: 0.1rem;
-              place-items: center;
+              // place-items: center;
               .footer-logo {
                 display: flex;
                 flex-direction: column;
                 gap: 0.8rem;
-                align-items: center;
+                // align-items: center;
                 img {
                   width: 80px;
                   height: 80px;
@@ -1024,7 +1024,7 @@
                 display: flex;
                 flex-direction: column;
                 gap: 0.6rem;
-                align-items: center;
+                align-items: star;
                 h2 {
                   font-weight: 700;
                   font-family: $primaryFont;
@@ -1055,7 +1055,7 @@
               display: none;
               flex-direction: column;
               gap: 0.6rem;
-              align-items: center;
+              align-items: start;
               h2 {
                 font-weight: 700;
                 font-family: $primaryFont;
@@ -1085,7 +1085,7 @@
               display: flex;
               flex-direction: column;
               gap: 0.6rem;
-              align-items: center;
+              align-items: start;
               h2 {
                 font-weight: 700;
                 font-family: $primaryFont;

@@ -11,7 +11,7 @@ export default function Home() {
       <div className="home-paragraph">
         <p>
           All of our chickens are grown by the Soanes family and their farming
-          neighbours on farms in and around the Yorkshire Wolds
+          neighbours on farms in and around the world
         </p>
       </div>
       <div className="home-button">
