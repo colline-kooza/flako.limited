@@ -1,0 +1,112 @@
+.Works {
+  margin-top: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  overflow: hidden;
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-family: $primaryFont;
+    color: $black;
+    font-weight: 900;
+    margin-bottom: 0.7rem;
+  }
+  .swiper {
+    width: 1000px;
+    height: 50vh;
+  }
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  @media (max-width: 1199.98px) {
+    margin-top: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    overflow: hidden;
+    h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      font-family: $primaryFont;
+      color: $black;
+      font-weight: 900;
+      margin-bottom: 0.7rem;
+    }
+    .swiper {
+      width: 1000px;
+      height: 50vh;
+    }
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    @media (max-width: 767.98px) {
+      margin-top: 0.1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      overflow: hidden;
+      h2 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-family: $primaryFont;
+        font-weight: 900;
+        margin-bottom: 0.7rem;
+      }
+      p {
+        font-size: 13px;
+        text-align: center;
+      }
+      .swiper {
+        width: 1000px;
+        height: 50vh;
+      }
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

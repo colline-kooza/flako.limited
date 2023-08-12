@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Tender Green Peas",
+    "short_description": "Vibrant and Fresh",
+    "detailed_description": "Discover the perfection of tender green peas harvested at their peak, providing vibrant color and a burst of freshness to your culinary creations.",
+    "price": "$2.99",
+    "image": "/images/greenPeas.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Exquisite Coffee Beans",
+    "short_description": "Rich Aromatic Brew",
+    "detailed_description": "Awaken your senses with our exquisite coffee beans sourced from the finest regions, promising a rich and aromatic brew that captures the essence of a perfect cup.",
+    "price": "$12.99",
+    "image": "/images/coffeeharvest.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Premium Maize Grains",
+    "short_description": "Versatile and Quality",
+    "detailed_description": "Experience the versatility of our premium maize grains, carefully selected for human consumption and livestock feed, ensuring superior quality in every kernel.",
+    "price": "$6.99",
+    "image": "/images/maizeharvest.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Nutrient-Rich Soya Beans",
+    "short_description": "Healthful Protein Source",
+    "detailed_description": "Elevate your culinary creations with our nutrient-rich soya beans, a versatile protein source that adds health benefits and a delightful taste to your dishes.",
+    "price": "$3.79",
+    "image": "/images/soyaharvest.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Grandnuts",
+    "short_description": "Savory Nutty Snack",
+    "detailed_description": "Enjoy the savory goodness of our premium groundnuts, a wholesome snack loved for their rich flavor and nutritional value.",
+    "price": "$5.49",
+    "image": "/images/grandnutsharvest.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Simsim",
+    "short_description": "Nutty Flavor Enhancer",
+    "detailed_description": "Elevate your dishes with our high-quality simsim (sesame seeds), known for their nutty flavor and versatility in both sweet and savory creations.",
+    "price": "$4.29",
+    "image": "/images/simsim.jpg"
+  }
+]

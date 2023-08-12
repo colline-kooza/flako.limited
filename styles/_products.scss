@@ -1,0 +1,737 @@
+.products {
+  max-width: 100%;
+  margin: auto 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  .products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .our-products {
+      width: 22%;
+      border-bottom: 2px solid $orange;
+      h1 {
+        font-size: 30px;
+        font-weight: 700;
+        font-family: $primaryFont;
+        margin-bottom: 1rem;
+      }
+    }
+    .fresh-garments {
+      h2 {
+        font-size: 18px;
+        font-weight: 900;
+        font-family: $primaryFont;
+        color: black;
+      }
+    }
+  }
+  .products-conatainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax((16rem, 1fr)));
+    a {
+      text-decoration: none;
+      width: 100%;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      .image {
+        border-radius: 10px;
+        border: 2px solid rgba(128, 128, 128, 0.079);
+        width: 80%;
+        height: 40vh;
+        position: relative;
+        img {
+          width: 100%;
+          border-radius: 5px;
+          object-fit: contain;
+        }
+      }
+      .product-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $black;
+        h2 {
+          font-size: 16px;
+          font-family: $primaryFont;
+        }
+        p {
+          font-weight: 800;
+          font-size: 14px;
+          font-family: $mainFont;
+        }
+      }
+      transition: all 2s;
+      &:hover {
+        transform: scale(1);
+        .image {
+          border-radius: 10px;
+          border: 1px solid $orange;
+          position: relative;
+          img {
+            width: 100%;
+            border-radius: 5px;
+            object-fit: contain;
+          }
+        }
+        .product-text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          color: $orange;
+          h2 {
+            font-size: 16px;
+            font-family: $primaryFont;
+          }
+          p {
+            font-weight: 800;
+            font-size: 14px;
+            font-family: $mainFont;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 1199.98px) {
+    max-width: 100%;
+    margin: auto 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    .products-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .our-products {
+        width: 26%;
+        border-bottom: 2px solid $orange;
+        h1 {
+          font-size: 30px;
+          font-weight: 700;
+          font-family: $primaryFont;
+          margin-bottom: 1rem;
+        }
+      }
+      .fresh-garments {
+        h2 {
+          font-size: 18px;
+          font-weight: 900;
+          font-family: $primaryFont;
+          color: black;
+        }
+      }
+    }
+    .products-conatainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax((16rem, 1fr)));
+      a {
+        text-decoration: none;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        .image {
+          border-radius: 10px;
+          border: 2px solid rgba(128, 128, 128, 0.079);
+          width: 80%;
+          height: 40vh;
+          position: relative;
+          img {
+            width: 100%;
+            border-radius: 5px;
+            object-fit: contain;
+          }
+        }
+        .product-text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          color: $black;
+          h2 {
+            font-size: 16px;
+            font-family: $primaryFont;
+          }
+          p {
+            font-weight: 800;
+            font-size: 14px;
+            font-family: $mainFont;
+          }
+        }
+        transition: all 2s;
+        &:hover {
+          transform: scale(1);
+          .image {
+            border-radius: 10px;
+            border: 1px solid $orange;
+            width: 70%;
+            height: 40vh;
+            position: relative;
+            img {
+              width: 100%;
+              border-radius: 5px;
+              object-fit: contain;
+            }
+          }
+          .product-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: $orange;
+            h2 {
+              font-size: 16px;
+              font-family: $primaryFont;
+            }
+            p {
+              font-weight: 800;
+              font-size: 14px;
+              font-family: $mainFont;
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 991.98px) {
+      max-width: 100%;
+      margin: auto 4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      .products-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .our-products {
+          width: 40%;
+          border-bottom: 2px solid $orange;
+          h1 {
+            font-size: 30px;
+            font-weight: 700;
+            font-family: $primaryFont;
+            margin-bottom: 1rem;
+          }
+        }
+        .fresh-garments {
+          h2 {
+            font-size: 18px;
+            font-weight: 900;
+            font-family: $primaryFont;
+            color: black;
+          }
+        }
+      }
+      .products-conatainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax((16rem, 1fr)));
+        a {
+          text-decoration: none;
+          width: 100%;
+          height: 60vh;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          .image {
+            border-radius: 10px;
+            border: 2px solid rgba(128, 128, 128, 0.079);
+            width: 80%;
+            height: 40vh;
+            position: relative;
+            img {
+              width: 100%;
+              border-radius: 5px;
+              object-fit: contain;
+            }
+          }
+          .product-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: $black;
+            h2 {
+              font-size: 16px;
+              font-family: $primaryFont;
+            }
+            p {
+              font-weight: 800;
+              font-size: 14px;
+              font-family: $mainFont;
+            }
+          }
+          transition: all 2s;
+          &:hover {
+            transform: scale(1);
+            .image {
+              border-radius: 10px;
+              border: 1px solid $orange;
+              width: 70%;
+              height: 40vh;
+              position: relative;
+              img {
+                width: 100%;
+                border-radius: 5px;
+                object-fit: contain;
+              }
+            }
+            .product-text {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              color: $orange;
+              h2 {
+                font-size: 16px;
+                font-family: $primaryFont;
+              }
+              p {
+                font-weight: 800;
+                font-size: 14px;
+                font-family: $mainFont;
+              }
+            }
+          }
+        }
+      }
+      @media (max-width: 768.98px) {
+        max-width: 100%;
+        margin: auto 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .products-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .our-products {
+            width: 40%;
+            border-bottom: 2px solid $orange;
+            h1 {
+              font-size: 25px;
+              font-weight: 700;
+              font-family: $primaryFont;
+              margin-bottom: 1rem;
+            }
+          }
+          .fresh-garments {
+            h2 {
+              font-size: 18px;
+              font-weight: 900;
+              font-family: $primaryFont;
+              color: black;
+            }
+          }
+        }
+        .products-conatainer {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax((14rem, 1fr)));
+          a {
+            text-decoration: none;
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            .image {
+              border-radius: 10px;
+              border: 2px solid rgba(128, 128, 128, 0.079);
+              width: 80%;
+              height: 40vh;
+              position: relative;
+              img {
+                width: 100%;
+                border-radius: 5px;
+                object-fit: contain;
+              }
+            }
+            .product-text {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              color: $black;
+              h2 {
+                font-size: 16px;
+                font-family: $primaryFont;
+              }
+              p {
+                font-weight: 800;
+                font-size: 14px;
+                font-family: $mainFont;
+              }
+            }
+            transition: all 2s;
+            &:hover {
+              transform: scale(1);
+              .image {
+                border-radius: 10px;
+                border: 1px solid $orange;
+                width: 70%;
+                height: 40vh;
+                position: relative;
+                img {
+                  width: 100%;
+                  border-radius: 5px;
+                  object-fit: contain;
+                }
+              }
+              .product-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: $orange;
+                h2 {
+                  font-size: 16px;
+                  font-family: $primaryFont;
+                }
+                p {
+                  font-weight: 800;
+                  font-size: 14px;
+                  font-family: $mainFont;
+                }
+              }
+            }
+          }
+        }
+        @media (max-width: 575.98px) {
+          max-width: 100%;
+          margin: auto 1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 3rem;
+          .products-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .our-products {
+              width: 40%;
+              border-bottom: 2px solid $orange;
+              h1 {
+                font-size: 23px;
+                font-weight: 700;
+                font-family: $primaryFont;
+                margin-bottom: 1rem;
+              }
+            }
+            .fresh-garments {
+              h2 {
+                font-size: 18px;
+                font-weight: 900;
+                font-family: $primaryFont;
+                color: black;
+              }
+            }
+          }
+          .products-conatainer {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax((13rem, 1fr)));
+            a {
+              text-decoration: none;
+              width: 100%;
+              height: 60vh;
+              display: flex;
+              align-items: center;
+              flex-direction: column;
+              gap: 10px;
+              .image {
+                border-radius: 10px;
+                border: 2px solid rgba(128, 128, 128, 0.079);
+                width: 80%;
+                height: 40vh;
+                position: relative;
+                img {
+                  width: 100%;
+                  border-radius: 5px;
+                  object-fit: contain;
+                }
+              }
+              .product-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: $black;
+                h2 {
+                  font-size: 16px;
+                  font-family: $primaryFont;
+                }
+                p {
+                  font-weight: 800;
+                  font-size: 14px;
+                  font-family: $mainFont;
+                }
+              }
+              transition: all 2s;
+              &:hover {
+                transform: scale(0.9);
+                text-decoration: none;
+                width: 100%;
+                height: 38vh;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+                .image {
+                  border-radius: 10px;
+                  border: 2px solid rgba(128, 128, 128, 0.079);
+                  width: 90%;
+                  height: 20vh;
+                  position: relative;
+                  img {
+                    width: 100%;
+                    border-radius: 5px;
+                    object-fit: contain;
+                  }
+                }
+                .product-text {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  color: $black;
+                  h2 {
+                    font-size: 13px;
+                    text-align: center;
+                    color: $orange;
+                    font-family: $primaryFont;
+                  }
+                  p {
+                    color: $orange;
+                    font-weight: 800;
+                    font-size: 12px;
+                    font-family: $mainFont;
+                  }
+                }
+              }
+            }
+          }
+          @media (max-width: 468.98px) {
+            max-width: 100%;
+            margin: auto 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            .products-header {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              .our-products {
+                width: 50%;
+                border-bottom: 2px solid $orange;
+                h1 {
+                  font-size: 17px;
+                  font-weight: 700;
+                  font-family: $primaryFont;
+                  margin-bottom: 1rem;
+                }
+              }
+              .fresh-garments {
+                h2 {
+                  font-size: 17px;
+                  font-weight: 900;
+                  font-family: $primaryFont;
+                  color: black;
+                }
+              }
+            }
+            .products-conatainer {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax((11rem, 1fr)));
+              a {
+                text-decoration: none;
+                width: 100%;
+                height: 39vh;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+                .image {
+                  border-radius: 10px;
+                  border: 2px solid rgba(128, 128, 128, 0.079);
+                  width: 90%;
+                  height: 20vh;
+                  position: relative;
+                  img {
+                    width: 100%;
+                    border-radius: 5px;
+                    object-fit: contain;
+                  }
+                }
+                .product-text {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  color: $black;
+                  h2 {
+                    font-size: 16px;
+                    text-align: center;
+                    font-family: $primaryFont;
+                  }
+                  p {
+                    font-weight: 800;
+                    font-size: 14px;
+                    font-family: $mainFont;
+                  }
+                }
+                transition: all 2s;
+                &:hover {
+                  transform: scale(0.9);
+                  text-decoration: none;
+                  width: 100%;
+                  height: 38vh;
+                  display: flex;
+                  align-items: center;
+                  flex-direction: column;
+                  gap: 10px;
+                  .image {
+                    border-radius: 10px;
+                    border: 2px solid rgba(128, 128, 128, 0.079);
+                    width: 90%;
+                    height: 20vh;
+                    position: relative;
+                    img {
+                      width: 100%;
+                      border-radius: 5px;
+                      object-fit: contain;
+                    }
+                  }
+                  .product-text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    color: $black;
+                    h2 {
+                      font-size: 13px;
+                      text-align: center;
+                      color: $orange;
+                      font-family: $primaryFont;
+                    }
+                    p {
+                      color: $orange;
+                      font-weight: 800;
+                      font-size: 12px;
+                      font-family: $mainFont;
+                    }
+                  }
+                }
+              }
+            }
+            @media (max-width: 390.98px) {
+              max-width: 100%;
+              margin: auto 0.4rem;
+              display: flex;
+              flex-direction: column;
+              gap: 3rem;
+              .products-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .our-products {
+                  width: 50%;
+                  border-bottom: 1px solid $orange;
+                  h1 {
+                    font-size: 16px;
+                    font-weight: 700;
+                    font-family: $primaryFont;
+                    margin-bottom: 0.3rem;
+                  }
+                }
+                .fresh-garments {
+                  h2 {
+                    font-size: 15px;
+                    font-weight: 900;
+                    font-family: $primaryFont;
+                    color: black;
+                  }
+                }
+              }
+              .products-conatainer {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax((10rem, 1fr)));
+                a {
+                  text-decoration: none;
+                  width: 100%;
+                  height: 38vh;
+                  display: flex;
+                  align-items: center;
+                  flex-direction: column;
+                  gap: 10px;
+                  .image {
+                    border-radius: 10px;
+                    border: 2px solid rgba(128, 128, 128, 0.079);
+                    width: 90%;
+                    height: 20vh;
+                    position: relative;
+                    img {
+                      width: 100%;
+                      border-radius: 5px;
+                      object-fit: contain;
+                    }
+                  }
+                  .product-text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    color: $black;
+                    h2 {
+                      font-size: 13px;
+                      text-align: center;
+                      font-family: $primaryFont;
+                    }
+                    p {
+                      font-weight: 800;
+                      font-size: 12px;
+                      font-family: $mainFont;
+                    }
+                  }
+                  transition: all 2s;
+                  &:hover {
+                    transform: scale(0.9);
+                    text-decoration: none;
+                    width: 100%;
+                    height: 38vh;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 10px;
+                    .image {
+                      border-radius: 10px;
+                      border: 2px solid rgba(128, 128, 128, 0.079);
+                      width: 90%;
+                      height: 20vh;
+                      position: relative;
+                      img {
+                        width: 100%;
+                        border-radius: 5px;
+                        object-fit: contain;
+                      }
+                    }
+                    .product-text {
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      color: $black;
+                      h2 {
+                        font-size: 13px;
+                        text-align: center;
+                        color: $orange;
+                        font-family: $primaryFont;
+                      }
+                      p {
+                        color: $orange;
+                        font-weight: 800;
+                        font-size: 12px;
+                        font-family: $mainFont;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

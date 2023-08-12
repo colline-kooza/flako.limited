@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Premium Live Hens",
+    "slug": "premium-live-hens",
+    "description": "Experience the freshness of our premium live hens, raised with utmost care and ethical practices, ensuring the finest quality poultry for your table.",
+    "images": ["/images/live_hens_1.jpg", "/images/live_hens_2.jpg"],
+    "price": "$15.99",
+    "keywords": ["live hens", "premium quality", "ethical practices"],
+    "image": "/images/pnghen (2).png"
+  },
+  {
+    "id": 2,
+    "title": "Succulent Turkeys",
+    "slug": "succulent-turkey",
+    "description": "Elevate your special occasions with our succulent turkeys, known for their tender meat and exceptional flavor profile that will impress even the most discerning palate.",
+    "images": ["/images/turkey_1.jpg", "/images/turkey_2.jpg"],
+    "price": "$29.99",
+    "keywords": ["turkey", "special occasions", "exceptional flavor"],
+    "image": "/images/turkey.png"
+  },
+  {
+    "id": 3,
+    "title": "Farm-Fresh Eggs",
+    "slug": "farm-fresh-eggs",
+    "description": "Indulge in the delight of farm-fresh eggs sourced from happy, well-cared-for hens, offering a rich taste and superior nutritional value.",
+    "images": ["/images/eggs_1.jpg", "/images/eggs_2.jpg"],
+    "price": "$4.99",
+    "keywords": ["eggs", "farm-fresh", "nutritional value"],
+    "image": "/images/pngEggs.png"
+  },
+  {
+    "id": 4,
+    "title": "Tender Green Peas",
+    "slug": "tender-green-peas",
+    "description": "Discover the perfection of tender green peas harvested at their peak, providing vibrant color and a burst of freshness to your culinary creations.",
+    "images": ["/images/green_peas_1.jpg", "/images/green_peas_2.jpg"],
+    "price": "$2.99",
+    "keywords": ["green peas", "tender", "culinary creations"],
+    "image": "/images/greenpeas.png"
+  },
+  {
+    "id": 5,
+    "title": "Adorable Chicks",
+    "slug": "adorable-chicks",
+    "description": "Embark on your poultry journey with our adorable and healthy chicks, perfect for starting your own farm and enjoying the wonders of raising poultry.",
+    "images": ["/images/chicks_1.jpg", "/images/chicks_2.jpg"],
+    "price": "$8.49",
+    "keywords": ["chicks", "poultry adventure", "raising farm animals"],
+    "image": "/images/pngchicks.png"
+  },
+  {
+    "id": 6,
+    "title": "Exquisite Coffee Beans",
+    "slug": "exquisite-coffee-beans",
+    "description": "Awaken your senses with our exquisite coffee beans sourced from the finest regions, promising a rich and aromatic brew that captures the essence of a perfect cup.",
+    "images": ["/images/coffee_1.jpg", "/images/coffee_2.jpg"],
+    "price": "$12.99",
+    "keywords": ["coffee", "aromatic", "rich brew"],
+    "image": "/images/pngcoffee.png"
+  },
+  {
+    "id": 7,
+    "title": "Premium Maize Grains",
+    "slug": "premium-maize-grains",
+    "description": "Experience the versatility of our premium maize grains, carefully selected for human consumption and livestock feed, ensuring superior quality in every kernel.",
+    "images": ["/images/maize_1.jpg", "/images/maize_2.jpg"],
+    "price": "$6.99",
+    "keywords": ["maize", "versatile", "quality grains"],
+    "image": "/images/pngmaize.png"
+  },
+  {
+    "id": 8,
+    "title": "Nutrient-Rich Soya Beans",
+    "slug": "nutrient-rich-soya-beans",
+    "description": "Elevate your culinary creations with our nutrient-rich soya beans, a versatile protein source that adds health benefits and a delightful taste to your dishes.",
+    "images": ["/images/soya_beans_1.jpg", "/images/soya_beans_2.jpg"],
+    "price": "$3.79",
+    "keywords": ["soya beans", "nutrient-rich", "protein source"],
+    "image": "/images/pngsoya.png"
+  }
+]

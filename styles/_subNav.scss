@@ -1,0 +1,153 @@
+.subNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 5rem;
+  align-items: center;
+  background-color: #262626;
+  max-width: 100%;
+  .subNav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    a {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: $orange;
+      text-decoration: none;
+      font-size: 14.3px;
+      transition: all 1s;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  .subNav-button {
+    button {
+      background-color: #82b440;
+      color: $primary;
+      border: none;
+      font-size: 15px;
+      outline: none;
+      padding: 6px 18px;
+      border-radius: 5px;
+      transition: all 1s;
+      &:hover {
+        background-color: $black;
+        color: $primary;
+        border: 1px solid $primary;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media (max-width: 767.98px) {
+  .subNav {
+    padding: 0.7rem 2rem;
+    .subNav-links {
+      gap: 10px;
+      a {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        color: $orange;
+        text-decoration: none;
+        font-size: 11px;
+        transition: all 1s;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+    .subNav-button {
+      button {
+        background-color: #82b440;
+        color: $primary;
+        border: none;
+        font-size: 13px;
+        outline: none;
+        padding: 6px 18px;
+        border-radius: 5px;
+        transition: all 1s;
+        &:hover {
+          background-color: $black;
+          color: $primary;
+          border: 1px solid $primary;
+          cursor: pointer;
+        }
+      }
+    }
+    @media (max-width: 468.98px) {
+      padding: 0.7rem 2rem;
+      .subNav-links {
+        gap: 3px;
+        a {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          color: $orange;
+          text-decoration: none;
+          font-size: 7px;
+          transition: all 1s;
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+      .subNav-button {
+        button {
+          background-color: #82b440;
+          color: $primary;
+          border: none;
+          font-size: 12px;
+          outline: none;
+          padding: 6px 18px;
+          border-radius: 5px;
+          transition: all 1s;
+          &:hover {
+            background-color: $black;
+            color: $primary;
+            border: 1px solid $primary;
+            cursor: pointer;
+          }
+        }
+      }
+      @media (max-width: 360.98px) {
+        padding: 0.7rem 1rem;
+        .subNav-links {
+          gap: 3px;
+          a {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            color: $orange;
+            text-decoration: none;
+            font-size: 5px;
+            transition: all 1s;
+            &:hover {
+              color: $primary;
+            }
+          }
+        }
+        .subNav-button {
+          button {
+            background-color: #82b440;
+            color: $primary;
+            border: none;
+            font-size: 10px;
+            outline: none;
+            padding: 6px 18px;
+            border-radius: 5px;
+            transition: all 1s;
+            &:hover {
+              background-color: $black;
+              color: $primary;
+              border: 1px solid $primary;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
