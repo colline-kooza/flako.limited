@@ -1,0 +1,35 @@
+.form-inputs {
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    #label {
+      color: black;
+      font-size: 19px;
+    }
+    input {
+      padding: 13px 10px;
+      border: 1px solid black;
+      font-size: 15px;
+      // background: linear-gradient(#83184325, #2e106519);
+    }
+    .button {
+      button {
+        background-color: black;
+        padding: 13px 30px;
+        font-size: 17px;
+        border: none;
+        color: aliceblue;
+        font-weight: 500;
+        transition: all 1s;
+        &:hover {
+          border: 1px solid black;
+          cursor: pointer;
+          background: none;
+          color: black;
+        }
+      }
+    }
+  }
+}

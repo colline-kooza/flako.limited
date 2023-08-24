@@ -1,0 +1,191 @@
+.sorting-products {
+  display: flex;
+  justify-content: space-between;
+  background-color: #efefef;
+  padding: 0.8rem;
+  gap: 1rem;
+  border-radius: 10px;
+  align-items: center;
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .menu {
+    a {
+      display: none;
+    }
+  }
+  .default-sorting {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    #select-one {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      padding: 4px 20px;
+      outline: none;
+      border-radius: 20px;
+      color: gray;
+      border: 0.2px solid gray;
+      option {
+        font-size: 14px;
+      }
+    }
+    #select-two {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      padding: 4px 15px;
+      outline: none;
+      border-radius: 20px;
+      color: gray;
+      border: 0.2px solid gray;
+      option {
+        font-size: 14px;
+      }
+    }
+  }
+  .number-sorting {
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 10px;
+    .one {
+      font-size: 14px;
+      padding: 2px 15px;
+      border-radius: 10px;
+      background-color: #7b8289;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 991.98px) {
+    display: flex;
+    justify-content: space-between;
+    // background-color: #efefef;
+    padding: 0.8rem;
+    gap: 1rem;
+    border-radius: 8px;
+    width: 530px;
+    align-items: center;
+    .icons {
+      display: none;
+      align-items: center;
+      gap: 10px;
+    }
+    .menu {
+      a {
+        display: block;
+      }
+    }
+    .default-sorting {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      #select-one {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        padding: 4px 20px;
+        outline: none;
+        border-radius: 20px;
+        color: gray;
+        border: 0.2px solid gray;
+        option {
+          font-size: 14px;
+        }
+      }
+      #select-two {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        padding: 4px 15px;
+        outline: none;
+        border-radius: 20px;
+        color: gray;
+        border: 0.2px solid gray;
+        option {
+          font-size: 14px;
+        }
+      }
+    }
+    .number-sorting {
+      display: flex;
+      align-items: center;
+      color: black;
+      gap: 10px;
+      .one {
+        font-size: 14px;
+        padding: 2px 15px;
+        border-radius: 10px;
+        background-color: #7b8289;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    @media (max-width: 703.98px) {
+      display: flex;
+      justify-content: space-between;
+      // background-color: #efefef;
+      padding: 0.8rem;
+      gap: 1rem;
+      border-radius: 8px;
+      width: 100%;
+      align-items: center;
+      .icons {
+        display: none;
+        align-items: center;
+        gap: 10px;
+      }
+      .menu {
+        a {
+          display: block;
+        }
+      }
+      .default-sorting {
+        display: none;
+        align-items: center;
+        gap: 10px;
+        #select-one {
+          font-family: "Roboto", sans-serif;
+          font-size: 14px;
+          padding: 4px 20px;
+          outline: none;
+          border-radius: 20px;
+          color: gray;
+          border: 0.2px solid gray;
+          option {
+            font-size: 14px;
+          }
+        }
+        #select-two {
+          font-family: "Roboto", sans-serif;
+          font-size: 14px;
+          padding: 4px 15px;
+          outline: none;
+          border-radius: 20px;
+          color: gray;
+          border: 0.2px solid gray;
+          option {
+            font-size: 14px;
+          }
+        }
+      }
+      .number-sorting {
+        display: flex;
+        align-items: center;
+        color: black;
+        gap: 10px;
+        .one {
+          font-size: 14px;
+          padding: 2px 15px;
+          border-radius: 10px;
+          background-color: #7b8289;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

@@ -627,6 +627,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                margin-top: 28px;
                 .our-products {
                   width: 50%;
                   border-bottom: 1px solid $orange;
@@ -648,7 +649,7 @@
               }
               .products-conatainer {
                 display: grid;
-                grid-template-columns: repeat(auto-fit, minmax((10rem, 1fr)));
+                grid-template-columns: repeat(auto-fit, minmax((8rem, 1fr)));
                 a {
                   text-decoration: none;
                   width: 100%;

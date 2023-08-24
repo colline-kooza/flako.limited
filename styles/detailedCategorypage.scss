@@ -1,0 +1,16 @@
+.category-detail-page {
+  width: 100%;
+  min-height: 100vh;
+  // background-color: $primaryColor;
+  display: flex;
+  padding: 1rem;
+  .products-sect {
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+    width: 70%;
+    @media (max-width: 703.98px) {
+      width: 100%;
+    }
+  }
+}

@@ -17,7 +17,7 @@ export default function Products({ data, title, imgFit }) {
       <div className="products-conatainer">
         {data.map((product) => {
           return (
-            <Link href="" key={product.id}>
+            <Link href={`/product/${product.slug}`} key={product.id}>
               <div className="image">
                 <Image
                   style={{ objectFit: imgFit }}

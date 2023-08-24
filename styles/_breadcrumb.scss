@@ -1,0 +1,26 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  gap: 10px;
+  justify-content: center;
+  a {
+    padding: 8px 28px;
+    text-decoration: none;
+    border: 1px solid $orange;
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 10px;
+    transition: all 1s;
+    &:hover {
+      background-color: $black;
+      color: aliceblue;
+    }
+  }
+  .current-text {
+    font-weight: 500;
+    font-family: inherit;
+    font-size: 14px;
+  }
+}

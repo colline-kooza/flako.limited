@@ -1,3 +1,4 @@
+// import { CartProvider } from "@/components/CartContext";
 import NavBar from "@/components/NavBar";
 import "../styles/main.scss";
 import { Inter } from "next/font/google";
@@ -14,11 +15,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
+        {/* <CartProvider> */}
         <SubNav />
         <NavBar />
         {children}
         <Footer />
+        {/* </CartProvider> */}
       </body>
     </html>
   );
