@@ -44,7 +44,7 @@
     "title": "Adorable Chicks",
     "slug": "adorable-chicks",
     "description": "Embark on an enchanting journey into the world of poultry with our adorable chicks. These fluffy bundles of joy hold the promise of a rewarding experience, whether you're starting your own farm or simply seeking the joys of raising farm animals.\n\nOur chicks are raised with utmost care, ensuring their health and vitality. As they grow under our watchful eyes, they become not just livestock, but beloved companions in your agricultural adventure. Their vibrant personalities and growth milestones will fill your days with wonder and fulfillment.\n\nRaising chicks is a gratifying endeavor that connects you to the rhythms of nature and the cycle of life. From nurturing them into adulthood to benefiting from the eggs they produce, these chicks are the embodiment of the farm-to-table experience. Embark on this journey with us and embrace the joys of sustainable living and farming.",
-    "images": ["/images/image1.jpg", "/images/welcome1.jpg"],
+    "images": ["/images/image1.jpg"],
     "price": "$8.49",
     "keywords": ["chicks", "poultry adventure", "raising farm animals"],
     "image": "/images/pngchicks.png"
@@ -54,11 +54,7 @@
     "title": "Exquisite Coffee Beans",
     "slug": "exquisite-coffee-beans",
     "description": "Awaken your senses with the unparalleled richness of our exquisite coffee beans. Sourced from the finest regions, these beans promise a brew that's more than just a drink – it's an experience that captivates your taste buds and invigorates your soul.\n\nOur dedication to quality extends from the coffee plantations to your cup. With every sip, you're transported to the lush landscapes where these beans are cultivated, harvested, and expertly processed. The result is a cup of coffee that's a symphony of aromas and flavors, embodying the very essence of a perfect brew.\n\nExquisite coffee beans aren't just about the beverage; they're about creating moments of indulgence and connection. Whether you're enjoying a solitary morning ritual or sharing conversations with loved ones, our coffee beans elevate the experience, making every cup a celebration of life's pleasures.",
-    "images": [
-      "/images/coffee4.jpg",
-      "/images/coffe3.jpg",
-      "/images/coffee2.jpeg"
-    ],
+    "images": ["/images/coffee4.jpg", "/images/coffee2.jpeg"],
     "price": "$12.99",
     "keywords": ["coffee", "aromatic", "rich brew"],
     "image": "/images/pngcoffee.png"

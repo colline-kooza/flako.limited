@@ -21,7 +21,7 @@ export default function NavBar() {
       <div
         className={showNavBar ? " navBar-links display-links " : "navBar-links"}
       >
-        <Link href="">Home</Link>
+        <Link href="/">Home</Link>
         <Link href="">About</Link>
         <Link href="">Our Services</Link>
         <Link href="">

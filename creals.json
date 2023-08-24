@@ -21,11 +21,7 @@
     "price": "$12.99",
     "image": "/images/coffeeharvest.jpg",
     "slug": "exquisite-coffee-beans",
-    "images": [
-      "/images/coffe3.jpg",
-      "/images/coffee2.jpeg",
-      "/images/coffee4.jpg"
-    ]
+    "images": ["/images/coffe2.jpg", "/images/coffee4.jpg"]
   },
   {
     "id": 3,
